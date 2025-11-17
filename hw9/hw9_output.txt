@@ -1,0 +1,333 @@
+python3 hw9_code.py  
+Model:
+SimpleNet(
+  (conv1): Conv1d(1, 2, kernel_size=(5,), stride=(2,), padding=(2,))
+  (conv2): Conv1d(2, 2, kernel_size=(5,), stride=(2,), padding=(2,))
+  (fc1): Linear(in_features=256, out_features=100, bias=True)
+  (fc2): Linear(in_features=100, out_features=100, bias=True)
+  (fc3): Linear(in_features=100, out_features=7, bias=True)
+)
+36541 weights
+training
+5-epoch group number 1
+epoch 1/5: 1989it [00:02, 1410.56it/s][ 1,  2000] risk over last 2000 mini-batches: 1.710
+epoch 1/5: 3868it [00:04, 1441.84it/s][ 1,  4000] risk over last 2000 mini-batches: 1.715
+epoch 2/5: 1881it [00:02, 1397.87it/s][ 2,  2000] risk over last 2000 mini-batches: 1.543
+epoch 2/5: 3936it [00:04, 1462.00it/s][ 2,  4000] risk over last 2000 mini-batches: 1.611
+epoch 3/5: 1886it [00:02, 1396.31it/s][ 3,  2000] risk over last 2000 mini-batches: 1.456
+epoch 3/5: 3932it [00:03, 1455.05it/s][ 3,  4000] risk over last 2000 mini-batches: 1.514
+epoch 4/5: 1898it [00:02, 1412.56it/s][ 4,  2000] risk over last 2000 mini-batches: 1.399
+epoch 4/5: 3956it [00:03, 1466.81it/s][ 4,  4000] risk over last 2000 mini-batches: 1.468
+epoch 5/5: 1889it [00:02, 1406.38it/s][ 5,  2000] risk over last 2000 mini-batches: 1.365
+epoch 5/5: 3944it [00:03, 1459.22it/s][ 5,  4000] risk over last 2000 mini-batches: 1.439
+evaluating after epoch 5              
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1446.58it/s]
+training accuracy 48.21 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 302.35it/s]
+validation accuracy 49.36 percent
+5-epoch group number 2
+epoch 1/5: 1875it [00:02, 1380.01it/s][ 6,  2000] risk over last 2000 mini-batches: 1.343
+epoch 1/5: 3901it [00:04, 1438.22it/s][ 6,  4000] risk over last 2000 mini-batches: 1.416
+epoch 2/5: 1883it [00:02, 1397.87it/s][ 7,  2000] risk over last 2000 mini-batches: 1.328
+epoch 2/5: 3913it [00:03, 1445.02it/s][ 7,  4000] risk over last 2000 mini-batches: 1.398
+epoch 3/5: 1881it [00:02, 1396.50it/s][ 8,  2000] risk over last 2000 mini-batches: 1.315
+epoch 3/5: 3909it [00:03, 1436.39it/s][ 8,  4000] risk over last 2000 mini-batches: 1.382
+epoch 4/5: 1888it [00:02, 1403.00it/s][ 9,  2000] risk over last 2000 mini-batches: 1.303
+epoch 4/5: 3921it [00:03, 1445.09it/s][ 9,  4000] risk over last 2000 mini-batches: 1.368
+epoch 5/5: 1869it [00:02, 1374.23it/s][10,  2000] risk over last 2000 mini-batches: 1.293
+epoch 5/5: 3865it [00:04, 1402.78it/s][10,  4000] risk over last 2000 mini-batches: 1.356
+evaluating after epoch 10             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1424.71it/s]
+training accuracy 50.34 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 303.58it/s]
+validation accuracy 50.45 percent
+5-epoch group number 3
+epoch 1/5: 1868it [00:02, 1382.88it/s][11,  2000] risk over last 2000 mini-batches: 1.284
+epoch 1/5: 3894it [00:03, 1440.31it/s][11,  4000] risk over last 2000 mini-batches: 1.344
+epoch 2/5: 1886it [00:02, 1397.18it/s][12,  2000] risk over last 2000 mini-batches: 1.276
+epoch 2/5: 3927it [00:03, 1456.31it/s][12,  4000] risk over last 2000 mini-batches: 1.333
+epoch 3/5: 1968it [00:02, 1384.20it/s][13,  2000] risk over last 2000 mini-batches: 1.268
+epoch 3/5: 3988it [00:04, 1398.24it/s][13,  4000] risk over last 2000 mini-batches: 1.322
+epoch 4/5: 1856it [00:02, 1386.95it/s][14,  2000] risk over last 2000 mini-batches: 1.260
+epoch 4/5: 3876it [00:03, 1432.90it/s][14,  4000] risk over last 2000 mini-batches: 1.311
+epoch 5/5: 1865it [00:02, 1382.63it/s][15,  2000] risk over last 2000 mini-batches: 1.252
+epoch 5/5: 3892it [00:03, 1440.06it/s][15,  4000] risk over last 2000 mini-batches: 1.301
+evaluating after epoch 15             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1449.88it/s]
+training accuracy 51.82 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 304.62it/s]
+validation accuracy 50.17 percent
+5-epoch group number 4
+epoch 1/5: 1879it [00:02, 1397.53it/s][16,  2000] risk over last 2000 mini-batches: 1.244
+epoch 1/5: 3916it [00:03, 1450.47it/s][16,  4000] risk over last 2000 mini-batches: 1.290
+epoch 2/5: 1872it [00:02, 1392.94it/s][17,  2000] risk over last 2000 mini-batches: 1.237
+epoch 2/5: 3895it [00:03, 1436.66it/s][17,  4000] risk over last 2000 mini-batches: 1.280
+epoch 3/5: 1971it [00:02, 1411.90it/s][18,  2000] risk over last 2000 mini-batches: 1.229
+epoch 3/5: 3868it [00:03, 1452.96it/s][18,  4000] risk over last 2000 mini-batches: 1.269
+epoch 4/5: 1871it [00:02, 1392.34it/s][19,  2000] risk over last 2000 mini-batches: 1.221
+epoch 4/5: 3914it [00:03, 1452.16it/s][19,  4000] risk over last 2000 mini-batches: 1.260
+epoch 5/5: 1862it [00:02, 1359.36it/s][20,  2000] risk over last 2000 mini-batches: 1.213
+epoch 5/5: 3895it [00:03, 1434.71it/s][20,  4000] risk over last 2000 mini-batches: 1.250
+evaluating after epoch 20             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1433.63it/s]
+training accuracy 53.00 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 301.85it/s]
+validation accuracy 50.88 percent
+5-epoch group number 5
+epoch 1/5: 1958it [00:02, 1131.97it/s][21,  2000] risk over last 2000 mini-batches: 1.205
+epoch 1/5: 3878it [00:04, 1340.55it/s][21,  4000] risk over last 2000 mini-batches: 1.240
+epoch 2/5: 1888it [00:02, 1405.43it/s][22,  2000] risk over last 2000 mini-batches: 1.197
+epoch 2/5: 3907it [00:04, 1403.53it/s][22,  4000] risk over last 2000 mini-batches: 1.230
+epoch 3/5: 1866it [00:02, 1343.19it/s][23,  2000] risk over last 2000 mini-batches: 1.189
+epoch 3/5: 3880it [00:04, 1430.51it/s][23,  4000] risk over last 2000 mini-batches: 1.219
+epoch 4/5: 1981it [00:02, 1377.78it/s][24,  2000] risk over last 2000 mini-batches: 1.180
+epoch 4/5: 3994it [00:04, 1396.03it/s][24,  4000] risk over last 2000 mini-batches: 1.209
+epoch 5/5: 1857it [00:02, 1356.51it/s][25,  2000] risk over last 2000 mini-batches: 1.172
+epoch 5/5: 3879it [00:04, 1401.82it/s][25,  4000] risk over last 2000 mini-batches: 1.198
+evaluating after epoch 25             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1396.57it/s]
+training accuracy 54.29 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 292.95it/s]
+validation accuracy 50.36 percent
+5-epoch group number 6
+epoch 1/5: 1985it [00:02, 1360.10it/s][26,  2000] risk over last 2000 mini-batches: 1.163
+epoch 1/5: 3970it [00:04, 1428.64it/s][26,  4000] risk over last 2000 mini-batches: 1.187
+epoch 2/5: 1860it [00:02, 1397.60it/s][27,  2000] risk over last 2000 mini-batches: 1.154
+epoch 2/5: 3884it [00:04, 1428.64it/s][27,  4000] risk over last 2000 mini-batches: 1.176
+epoch 3/5: 1871it [00:02, 1401.24it/s][28,  2000] risk over last 2000 mini-batches: 1.146
+epoch 3/5: 3883it [00:04, 1389.25it/s][28,  4000] risk over last 2000 mini-batches: 1.165
+epoch 4/5: 1958it [00:02, 1378.57it/s][29,  2000] risk over last 2000 mini-batches: 1.135
+epoch 4/5: 3975it [00:04, 1444.24it/s][29,  4000] risk over last 2000 mini-batches: 1.152
+epoch 5/5: 1978it [00:02, 1377.33it/s][30,  2000] risk over last 2000 mini-batches: 1.124
+epoch 5/5: 3878it [00:03, 1455.58it/s][30,  4000] risk over last 2000 mini-batches: 1.140
+evaluating after epoch 30             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1319.02it/s]
+training accuracy 55.26 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 277.30it/s]
+validation accuracy 49.55 percent
+5-epoch group number 7
+epoch 1/5: 1981it [00:02, 1368.38it/s][31,  2000] risk over last 2000 mini-batches: 1.113
+epoch 1/5: 3971it [00:04, 1435.47it/s][31,  4000] risk over last 2000 mini-batches: 1.127
+epoch 2/5: 1942it [00:02, 1261.87it/s][32,  2000] risk over last 2000 mini-batches: 1.102
+epoch 2/5: 3967it [00:04, 1461.83it/s][32,  4000] risk over last 2000 mini-batches: 1.114
+epoch 3/5: 1902it [00:02, 1412.16it/s][33,  2000] risk over last 2000 mini-batches: 1.090
+epoch 3/5: 3961it [00:03, 1462.05it/s][33,  4000] risk over last 2000 mini-batches: 1.101
+epoch 4/5: 1889it [00:02, 1403.06it/s][34,  2000] risk over last 2000 mini-batches: 1.078
+epoch 4/5: 3945it [00:03, 1460.50it/s][34,  4000] risk over last 2000 mini-batches: 1.087
+epoch 5/5: 1888it [00:02, 1398.55it/s][35,  2000] risk over last 2000 mini-batches: 1.067
+epoch 5/5: 3909it [00:04, 1262.13it/s][35,  4000] risk over last 2000 mini-batches: 1.074
+evaluating after epoch 35             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1368.87it/s]
+training accuracy 57.13 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 289.21it/s]
+validation accuracy 49.36 percent
+5-epoch group number 8
+epoch 1/5: 1885it [00:02, 1320.35it/s][36,  2000] risk over last 2000 mini-batches: 1.052
+epoch 1/5: 3997it [00:04, 1231.24it/s][36,  4000] risk over last 2000 mini-batches: 1.059
+epoch 2/5: 1989it [00:02, 1373.33it/s][37,  2000] risk over last 2000 mini-batches: 1.048
+epoch 2/5: 3982it [00:04, 1416.51it/s][37,  4000] risk over last 2000 mini-batches: 1.047
+epoch 3/5: 1963it [00:02, 1365.58it/s][38,  2000] risk over last 2000 mini-batches: 1.027
+epoch 3/5: 3903it [00:04, 1367.13it/s][38,  4000] risk over last 2000 mini-batches: 1.030
+epoch 4/5: 1948it [00:02, 1143.53it/s][39,  2000] risk over last 2000 mini-batches: 1.015
+epoch 4/5: 3921it [00:04, 1409.69it/s][39,  4000] risk over last 2000 mini-batches: 1.015
+epoch 5/5: 1991it [00:02, 1399.82it/s][40,  2000] risk over last 2000 mini-batches: 0.999
+epoch 5/5: 3998it [00:04, 1415.14it/s][40,  4000] risk over last 2000 mini-batches: 0.999
+evaluating after epoch 40             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1305.64it/s]
+training accuracy 59.06 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 284.34it/s]
+validation accuracy 48.41 percent
+5-epoch group number 9
+epoch 1/5: 1904it [00:02, 1391.01it/s][41,  2000] risk over last 2000 mini-batches: 0.988
+epoch 1/5: 3967it [00:04, 1465.30it/s][41,  4000] risk over last 2000 mini-batches: 0.985
+epoch 2/5: 1910it [00:02, 1416.79it/s][42,  2000] risk over last 2000 mini-batches: 0.967
+epoch 2/5: 3980it [00:03, 1460.00it/s][42,  4000] risk over last 2000 mini-batches: 0.966
+epoch 3/5: 1915it [00:02, 1423.26it/s][43,  2000] risk over last 2000 mini-batches: 0.950
+epoch 3/5: 3990it [00:03, 1477.19it/s][43,  4000] risk over last 2000 mini-batches: 0.949
+epoch 4/5: 1900it [00:02, 1414.08it/s][44,  2000] risk over last 2000 mini-batches: 0.933
+epoch 4/5: 3968it [00:03, 1473.70it/s][44,  4000] risk over last 2000 mini-batches: 0.931
+epoch 5/5: 1903it [00:02, 1410.28it/s][45,  2000] risk over last 2000 mini-batches: 0.951
+epoch 5/5: 3967it [00:03, 1472.02it/s][45,  4000] risk over last 2000 mini-batches: 0.951
+evaluating after epoch 45             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1384.77it/s]
+training accuracy 60.48 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 281.18it/s]
+validation accuracy 47.61 percent
+5-epoch group number 10
+epoch 1/5: 1955it [00:02, 1408.65it/s][46,  2000] risk over last 2000 mini-batches: 0.974
+epoch 1/5: 3863it [00:04, 1461.42it/s][46,  4000] risk over last 2000 mini-batches: 0.926
+epoch 2/5: 1904it [00:02, 1418.91it/s][47,  2000] risk over last 2000 mini-batches: 0.907
+epoch 2/5: 3973it [00:03, 1468.75it/s][47,  4000] risk over last 2000 mini-batches: 0.894
+epoch 3/5: 1907it [00:02, 1410.69it/s][48,  2000] risk over last 2000 mini-batches: 0.877
+epoch 3/5: 3969it [00:03, 1467.65it/s][48,  4000] risk over last 2000 mini-batches: 0.870
+epoch 4/5: 1902it [00:02, 1412.33it/s][49,  2000] risk over last 2000 mini-batches: 0.852
+epoch 4/5: 3964it [00:03, 1473.58it/s][49,  4000] risk over last 2000 mini-batches: 0.862
+epoch 5/5: 1895it [00:02, 1353.02it/s][50,  2000] risk over last 2000 mini-batches: 0.898
+epoch 5/5: 3945it [00:04, 785.21it/s][50,  4000] risk over last 2000 mini-batches: 0.888
+evaluating after epoch 50            
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1398.04it/s]
+training accuracy 61.99 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 295.38it/s]
+validation accuracy 46.99 percent
+5-epoch group number 11
+epoch 1/5: 1870it [00:02, 1389.98it/s][51,  2000] risk over last 2000 mini-batches: 0.862
+epoch 1/5: 3878it [00:04, 1433.31it/s][51,  4000] risk over last 2000 mini-batches: 0.857
+epoch 2/5: 1962it [00:02, 1333.54it/s][52,  2000] risk over last 2000 mini-batches: 0.815
+epoch 2/5: 3952it [00:04, 1410.88it/s][52,  4000] risk over last 2000 mini-batches: 0.811
+epoch 3/5: 1877it [00:02, 1394.30it/s][53,  2000] risk over last 2000 mini-batches: 0.782
+epoch 3/5: 3905it [00:04, 1439.83it/s][53,  4000] risk over last 2000 mini-batches: 0.782
+epoch 4/5: 1865it [00:02, 1371.38it/s][54,  2000] risk over last 2000 mini-batches: 0.759
+epoch 4/5: 3879it [00:03, 1428.75it/s][54,  4000] risk over last 2000 mini-batches: 0.759
+epoch 5/5: 1971it [00:02, 1359.47it/s][55,  2000] risk over last 2000 mini-batches: 0.846
+epoch 5/5: 3967it [00:04, 1418.95it/s][55,  4000] risk over last 2000 mini-batches: 0.851
+evaluating after epoch 55             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1356.99it/s]
+training accuracy 61.63 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 294.70it/s]
+validation accuracy 44.95 percent
+5-epoch group number 12
+epoch 1/5: 1867it [00:02, 1384.62it/s][56,  2000] risk over last 2000 mini-batches: 0.792
+epoch 1/5: 3884it [00:03, 1426.68it/s][56,  4000] risk over last 2000 mini-batches: 0.771
+epoch 2/5: 1868it [00:02, 1391.27it/s][57,  2000] risk over last 2000 mini-batches: 0.724
+epoch 2/5: 3879it [00:03, 1415.80it/s][57,  4000] risk over last 2000 mini-batches: 0.731
+epoch 3/5: 1959it [00:02, 1368.08it/s][58,  2000] risk over last 2000 mini-batches: 0.699
+epoch 3/5: 3969it [00:04, 1432.80it/s][58,  4000] risk over last 2000 mini-batches: 0.710
+epoch 4/5: 1958it [00:02, 926.41it/s] [59,  2000] risk over last 2000 mini-batches: 0.691
+epoch 4/5: 3941it [00:04, 1428.07it/s][59,  4000] risk over last 2000 mini-batches: 0.806
+epoch 5/5: 1986it [00:02, 981.58it/s] [60,  2000] risk over last 2000 mini-batches: 0.803
+epoch 5/5: 3910it [00:04, 1376.97it/s][60,  4000] risk over last 2000 mini-batches: 0.745
+evaluating after epoch 60             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1396.24it/s]
+training accuracy 63.56 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 291.41it/s]
+validation accuracy 43.15 percent
+5-epoch group number 13
+epoch 1/5: 1879it [00:02, 1367.42it/s][61,  2000] risk over last 2000 mini-batches: 0.730
+epoch 1/5: 3869it [00:04, 1271.50it/s][61,  4000] risk over last 2000 mini-batches: 0.705
+epoch 2/5: 1994it [00:02, 1380.69it/s][62,  2000] risk over last 2000 mini-batches: 0.677
+epoch 2/5: 3855it [00:04, 1432.54it/s][62,  4000] risk over last 2000 mini-batches: 0.662
+epoch 3/5: 1991it [00:02, 1402.15it/s][63,  2000] risk over last 2000 mini-batches: 0.634
+epoch 3/5: 3871it [00:04, 1440.07it/s][63,  4000] risk over last 2000 mini-batches: 0.663
+epoch 4/5: 1977it [00:02, 1374.51it/s][64,  2000] risk over last 2000 mini-batches: 0.633
+epoch 4/5: 3945it [00:04, 1342.82it/s][64,  4000] risk over last 2000 mini-batches: 0.654
+epoch 5/5: 1967it [00:02, 1389.14it/s][65,  2000] risk over last 2000 mini-batches: 0.672
+epoch 5/5: 3967it [00:04, 1386.45it/s][65,  4000] risk over last 2000 mini-batches: 0.702
+evaluating after epoch 65             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1418.24it/s]
+training accuracy 63.83 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 289.74it/s]
+validation accuracy 43.15 percent
+5-epoch group number 14
+epoch 1/5: 1947it [00:02, 1348.31it/s][66,  2000] risk over last 2000 mini-batches: 0.728
+epoch 1/5: 3942it [00:04, 1424.45it/s][66,  4000] risk over last 2000 mini-batches: 0.708
+epoch 2/5: 1981it [00:02, 1381.20it/s][67,  2000] risk over last 2000 mini-batches: 0.655
+epoch 2/5: 3905it [00:04, 1339.08it/s][67,  4000] risk over last 2000 mini-batches: 0.629
+epoch 3/5: 1987it [00:02, 1386.39it/s][68,  2000] risk over last 2000 mini-batches: 0.585
+epoch 3/5: 3947it [00:04, 1383.18it/s][68,  4000] risk over last 2000 mini-batches: 0.608
+epoch 4/5: 1854it [00:02, 1375.55it/s][69,  2000] risk over last 2000 mini-batches: 0.552
+epoch 4/5: 3875it [00:04, 1434.04it/s][69,  4000] risk over last 2000 mini-batches: 0.669
+epoch 5/5: 1996it [00:02, 1371.63it/s][70,  2000] risk over last 2000 mini-batches: 0.684
+epoch 5/5: 3856it [00:04, 1426.91it/s][70,  4000] risk over last 2000 mini-batches: 0.644
+evaluating after epoch 70             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1417.69it/s]
+training accuracy 65.38 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 286.22it/s]
+validation accuracy 42.59 percent
+5-epoch group number 15
+epoch 1/5: 1892it [00:02, 1388.66it/s][71,  2000] risk over last 2000 mini-batches: 0.577
+epoch 1/5: 3891it [00:04, 1412.29it/s][71,  4000] risk over last 2000 mini-batches: 0.588
+epoch 2/5: 1977it [00:02, 1385.44it/s][72,  2000] risk over last 2000 mini-batches: 0.529
+epoch 2/5: 3988it [00:04, 1429.58it/s][72,  4000] risk over last 2000 mini-batches: 0.534
+epoch 3/5: 1870it [00:02, 1365.44it/s][73,  2000] risk over last 2000 mini-batches: 0.487
+epoch 3/5: 3858it [00:03, 1410.92it/s][73,  4000] risk over last 2000 mini-batches: 0.512
+epoch 4/5: 1993it [00:02, 1385.86it/s][74,  2000] risk over last 2000 mini-batches: 0.482
+epoch 4/5: 3983it [00:04, 1398.13it/s][74,  4000] risk over last 2000 mini-batches: 0.661
+epoch 5/5: 1987it [00:02, 1382.23it/s][75,  2000] risk over last 2000 mini-batches: 0.804
+epoch 5/5: 3980it [00:04, 1412.83it/s][75,  4000] risk over last 2000 mini-batches: 0.715
+evaluating after epoch 75             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1420.67it/s]
+training accuracy 65.16 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 296.59it/s]
+validation accuracy 43.15 percent
+5-epoch group number 16
+epoch 1/5: 1866it [00:02, 1376.08it/s][76,  2000] risk over last 2000 mini-batches: 0.638
+epoch 1/5: 3874it [00:04, 1395.56it/s][76,  4000] risk over last 2000 mini-batches: 0.590
+epoch 2/5: 1858it [00:02, 1337.90it/s][77,  2000] risk over last 2000 mini-batches: 0.541
+epoch 2/5: 3878it [00:04, 1432.42it/s][77,  4000] risk over last 2000 mini-batches: 0.542
+epoch 3/5: 1869it [00:02, 1390.14it/s][78,  2000] risk over last 2000 mini-batches: 0.481
+epoch 3/5: 3894it [00:03, 1435.24it/s][78,  4000] risk over last 2000 mini-batches: 0.511
+epoch 4/5: 1981it [00:02, 1401.11it/s][79,  2000] risk over last 2000 mini-batches: 0.498
+epoch 4/5: 3997it [00:04, 1419.63it/s][79,  4000] risk over last 2000 mini-batches: 0.498
+epoch 5/5: 1887it [00:02, 1399.67it/s][80,  2000] risk over last 2000 mini-batches: 0.469
+epoch 5/5: 3903it [00:04, 1408.03it/s][80,  4000] risk over last 2000 mini-batches: 0.550
+evaluating after epoch 80             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1394.80it/s]
+training accuracy 67.56 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 295.53it/s]
+validation accuracy 44.24 percent
+5-epoch group number 17
+epoch 1/5: 1869it [00:02, 1393.27it/s][81,  2000] risk over last 2000 mini-batches: 0.459
+epoch 1/5: 3870it [00:04, 1313.76it/s][81,  4000] risk over last 2000 mini-batches: 0.615
+epoch 2/5: 1863it [00:02, 1384.98it/s][82,  2000] risk over last 2000 mini-batches: 0.710
+epoch 2/5: 3893it [00:04, 1324.66it/s][82,  4000] risk over last 2000 mini-batches: 0.664
+epoch 3/5: 1877it [00:02, 1397.02it/s][83,  2000] risk over last 2000 mini-batches: 0.542
+epoch 3/5: 3895it [00:04, 1431.84it/s][83,  4000] risk over last 2000 mini-batches: 0.543
+epoch 4/5: 1890it [00:02, 1395.69it/s][84,  2000] risk over last 2000 mini-batches: 0.505
+epoch 4/5: 3933it [00:04, 1448.66it/s][84,  4000] risk over last 2000 mini-batches: 0.487
+epoch 5/5: 1865it [00:02, 1372.69it/s][85,  2000] risk over last 2000 mini-batches: 0.467
+epoch 5/5: 3870it [00:04, 1414.72it/s][85,  4000] risk over last 2000 mini-batches: 0.498
+evaluating after epoch 85             
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1416.35it/s]
+training accuracy 69.69 percent
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 285.15it/s]
+validation accuracy 43.58 percent
+5-epoch group number 18
+epoch 1/5: 1982it [00:02, 1374.83it/s][86,  2000] risk over last 2000 mini-batches: 0.457
+epoch 1/5: 3990it [00:04, 1422.65it/s][86,  4000] risk over last 2000 mini-batches: 0.473
+epoch 2/5: 1999it [00:02, 1390.66it/s][87,  2000] risk over last 2000 mini-batches: 0.410
+epoch 2/5: 3997it [00:04, 1408.12it/s][87,  4000] risk over last 2000 mini-batches: 0.430
+epoch 3/5: 1860it [00:02, 1382.13it/s][88,  2000] risk over last 2000 mini-batches: 0.385
+epoch 3/5: 3871it [00:04, 1417.80it/s][88,  4000] risk over last 2000 mini-batches: 0.514
+epoch 4/5: 1991it [00:02, 1386.21it/s][89,  2000] risk over last 2000 mini-batches: 0.416
+epoch 4/5: 3984it [00:04, 1421.43it/s][89,  4000] risk over last 2000 mini-batches: 0.458
+epoch 5/5: 1981it [00:02, 1370.58it/s][90,  2000] risk over last 2000 mini-batches: 0.938
+epoch 5/5: 3978it [00:04, 1430.13it/s][90,  4000] risk over last 2000 mini-batches: 0.666
+evaluating after epoch 90             
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:02<00:00, 1401.39it/s]
+training accuracy 67.54 percent
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 280.40it/s]
+validation accuracy 43.25 percent
+5-epoch group number 19
+epoch 1/5: 1941it [00:02, 1392.13it/s][91,  2000] risk over last 2000 mini-batches: 0.610
+epoch 1/5: 3959it [00:04, 1423.51it/s][91,  4000] risk over last 2000 mini-batches: 0.516
+epoch 2/5: 1857it [00:02, 1380.48it/s][92,  2000] risk over last 2000 mini-batches: 0.462
+epoch 2/5: 3875it [00:03, 1420.47it/s][92,  4000] risk over last 2000 mini-batches: 0.444
+epoch 3/5: 1994it [00:02, 1398.87it/s][93,  2000] risk over last 2000 mini-batches: 0.530
+epoch 3/5: 3867it [00:04, 1427.38it/s][93,  4000] risk over last 2000 mini-batches: 0.468
+epoch 4/5: 1990it [00:02, 1398.49it/s][94,  2000] risk over last 2000 mini-batches: 0.594
+epoch 4/5: 3974it [00:04, 1356.61it/s][94,  4000] risk over last 2000 mini-batches: 0.466
+epoch 5/5: 1910it [00:02, 1358.67it/s][95,  2000] risk over last 2000 mini-batches: 0.403
+epoch 5/5: 3920it [00:04, 1426.25it/s][95,  4000] risk over last 2000 mini-batches: 0.401
+evaluating after epoch 95             
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1386.38it/s]
+training accuracy 72.57 percent
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 292.48it/s]
+validation accuracy 43.25 percent
+5-epoch group number 20
+epoch 1/5: 1860it [00:02, 1345.91it/s][96,  2000] risk over last 2000 mini-batches: 0.360
+epoch 1/5: 3873it [00:04, 1432.85it/s][96,  4000] risk over last 2000 mini-batches: 0.386
+epoch 2/5: 1873it [00:02, 1388.13it/s][97,  2000] risk over last 2000 mini-batches: 0.341
+epoch 2/5: 3998it [00:04, 1391.28it/s][97,  4000] risk over last 2000 mini-batches: 0.374
+epoch 3/5: 1857it [00:02, 1378.76it/s][98,  2000] risk over last 2000 mini-batches: 0.347
+epoch 3/5: 3874it [00:03, 1436.31it/s][98,  4000] risk over last 2000 mini-batches: 0.371
+epoch 4/5: 1887it [00:02, 1360.16it/s][99,  2000] risk over last 2000 mini-batches: 0.330
+epoch 4/5: 3878it [00:04, 1387.82it/s][99,  4000] risk over last 2000 mini-batches: 0.373
+epoch 5/5: 1856it [00:02, 1386.72it/s][100,  2000] risk over last 2000 mini-batches: 0.369
+epoch 5/5: 3990it [00:04, 1390.83it/s][100,  4000] risk over last 2000 mini-batches: 0.423
+evaluating after epoch 100            
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 4172/4172 [00:03<00:00, 1366.47it/s]
+training accuracy 73.63 percent
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 528/528 [00:01<00:00, 280.10it/s]
+validation accuracy 44.05 percent
+saved accuracies to accuracies_2_2_100_100.pkl
+(.venv) gordon@MacBook-Air-1460 hw9 %
